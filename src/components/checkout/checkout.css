@@ -1,0 +1,12 @@
+.order-checkout label {
+  font-weight: bold;
+}
+.totals {
+  font-weight: bold;
+}
+
+.line-total {
+  margin: 10px 0;
+  font-size: 20px;
+  text-align: right;
+}

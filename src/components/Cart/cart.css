@@ -1,0 +1,10 @@
+.cart {
+  min-height: 100px;
+  padding: 30px 0 30px 0;
+}
+.cat-item-image {
+  width: 100px;
+}
+.cat-item-image img {
+  width: 100%;
+}

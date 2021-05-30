@@ -1,0 +1,22 @@
+.order {
+  min-height: 100vh;
+  background: white;
+}
+.noitem-image,
+.noitem-description {
+  width: 100%;
+  text-align: center;
+}
+.noitem-description h1 {
+  color: #154065;
+}
+.noitem-image i {
+  display: inline-block;
+  margin: 0 auto;
+  color: #527052;
+}
+.order-details {
+  /* background: green; */
+  /* min-height: 400px; */
+  /* overflow-y: scroll; */
+}

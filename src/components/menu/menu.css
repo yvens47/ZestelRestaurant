@@ -1,0 +1,39 @@
+.MuiDrawer-root,
+.MuiDrawer-paper {
+  padding: 50px;
+}
+@media (max-width: 576px) {
+  .menuitem-wrap {
+    height: 200px;
+    width: 180px;
+
+    font-weight: bold;
+    width: 100%;
+    padding: 40px 10px;
+    text-align: center;
+    position: relative;
+  }
+  .menuitem-wrap p {
+    color: #ddd;
+    font-weight: bold;
+    border: solid 1px #615a5a;
+    background: #27201a7a;
+    padding: 10px;
+    font-size: 25px;
+  }
+}
+
+/* @media (max-width: 576px) {
+} */
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

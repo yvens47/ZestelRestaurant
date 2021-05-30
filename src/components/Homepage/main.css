@@ -1,0 +1,139 @@
+a#simple-tab-2 {
+  display: block;
+}
+.banner {
+  height: 40%;
+  position: relative;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+.carousel-item {
+  width: 100%;
+  height: 800px;
+}
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+}
+.overlay {
+  background: #474b67e6;
+  height: 800px;
+  position: absolute;
+  z-index: 1000;
+  width: 30%;
+  top: 0px;
+  color: #e0dddd;
+}
+.Juicy {
+  background: var(--light);
+  color: #8d909b;
+}
+.juicy-title {
+  color: #9aa0a7;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+.sub-section-1 {
+  background: url("https://images.pexels.com/photos/1660030/pexels-photo-1660030.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+.sub-section-1 img {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .banner {
+    height: 30%;
+    width: 100%;
+  }
+  .sub-section-1 {
+    background: none;
+  }
+  .sub-section-1 img {
+    display: block;
+    margin-bottom: -40px;
+  }
+
+  .overlay {
+    background: #474b67e6;
+    height: auto;
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    color: #e0dddd;
+    height: 400px;
+
+    padding: 10px;
+  }
+  .overlay h3 {
+    color: #e0dddd;
+    font-size: 25px;
+  }
+
+  .home-title-2 {
+    font-size: 2rem;
+  }
+  .carousel-inner {
+    height: 100%;
+  }
+  .carousel-item {
+    width: 100%;
+    height: 400px;
+  }
+  .carousel-item img {
+    width: 100%;
+    height: 100%;
+  }
+  .carousel-inner {
+    height: 100%;
+  }
+  .display-3 {
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  .display-4 {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+}
+
+@media (min-width: 576px) {
+  .overlay {
+    background: #474b67e6;
+    height: auto;
+    position: absolute;
+    z-index: 1000;
+    width: 40%;
+    color: #e0dddd;
+    height: 100%;
+    padding-top: 20px;
+  }
+  .overlay h3 {
+    color: #e0dddd;
+  }
+  .display-3 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  .display-4 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

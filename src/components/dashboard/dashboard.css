@@ -1,0 +1,27 @@
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #69777b;
+  border-bottom: solid #aaadc4 3px;
+}
+.nav-link {
+  color: #416671;
+}
+.nav-link:hover {
+  color: #416671;
+}
+.chart {
+}
+
+.dashboard {
+  height: auto;
+  position: relative;
+}
+.content {
+  min-height: auto;
+
+  position: relative;
+}
+.history-image-wrapper {
+  height: auto;
+}

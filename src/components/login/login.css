@@ -1,0 +1,66 @@
+.login {
+  background: white;
+  min-height: 100vh;
+  /* padding: 3em; */
+  position: relative;
+}
+.register {
+  min-height: 100vh;
+  /* padding: 3em; */
+  position: relative;
+  background: white;
+}
+
+.loginformwrapper {
+  position: absolute;
+  border-left: solid 1px #eee;
+  height: 100%;
+  padding: 13em 3em;
+  width: 45%;
+  left: calc(100% - 50%);
+}
+.loginformwrapper-left {
+  position: absolute;
+  border-right: solid 1px #eee;
+  height: 100%;
+  padding: 3em;
+  background: #7c8c7c40;
+  width: 50%;
+  left: 0;
+}
+
+@media (max-width: 576px) {
+  .loginformwrapper-left {
+    position: absolute;
+    border-right: solid 1px #eee;
+    height: 100%;
+    padding: 3em;
+    background: #7c8c7c40;
+    width: 0%;
+    left: 0;
+    display: none;
+  }
+  .loginformwrapper {
+    position: absolute;
+    border-left: solid 1px #eee;
+    height: 100%;
+    padding: 8em 0em;
+    width: 100%;
+    left: 0;
+  }
+}
+
+@media (min-width: 576px) {
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

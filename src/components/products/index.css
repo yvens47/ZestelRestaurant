@@ -1,0 +1,116 @@
+.productitem-wrap {
+  width: 100%;
+  height: auto;
+
+  position: relative;
+}
+.product-image {
+  position: absolute;
+
+  padding: 10px;
+  top: 0;
+
+  height: 200px;
+}
+.product-image img {
+  height: 100%;
+}
+.productitem-wrap-a,
+.productitem-wrap-a:hover {
+  text-decoration: none;
+}
+
+.product-description {
+  margin-top: 185px;
+  color: #888;
+  padding: 10px;
+}
+.product-description h3 {
+  color: #666;
+
+  font-size: 20px;
+  text-align: center;
+}
+
+.product-description h3 span {
+  color: #666;
+  padding: 10px;
+  font-size: 20px;
+}
+a.list-group-item.list-group-item-action i {
+  color: #384a38;
+  font-weight: bold;
+  font-size: 20px;
+  float: right;
+}
+.product-order {
+  text-align: center;
+  border-top: solid 1px #eeee;
+  padding: 10px;
+}
+.protein,
+.calorie,
+.fat {
+  font-size: 20px;
+  color: #222;
+  font-weight: bold;
+  text-align: center;
+}
+.protein p:first-child,
+.calorie p:first-child,
+.fat p:first-child {
+  font-size: 20px;
+  color: #263326040;
+  font-weight: bold;
+}
+
+.protein span,
+.calorie span,
+.fat span {
+  font-size: 15px;
+  color: #5a5656;
+  font-weight: normal;
+}
+@media (max-width: 576px) {
+  .productitem-wrap {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+}
+
+@media (min-width: 576px) {
+  .product-image {
+    position: absolute;
+    padding: 10px;
+    top: 0;
+    height: 200px;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .product-image {
+    position: absolute;
+
+    padding: 10px;
+    top: 0;
+
+    height: 300px;
+  }
+  .product-description {
+    margin-top: 270px;
+    color: #888;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
